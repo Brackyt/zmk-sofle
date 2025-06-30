@@ -96,11 +96,11 @@
 
         layer_0 {
             bindings = <
-&kp ESC           &kp N1        &kp N2        &kp N3                     &kp N4     &kp N5              &kp UP_ARROW     &kp N6             &kp N7     &kp N8                                            &kp N9         &kp N0                    &kp BACKSPACE
-&kp TAB           &kp Q         &kp W         &kp E                      &kp R      &kp T               &kp DOWN_ARROW   &kp Y              &kp U      &kp I                                             &kp O          &kp P                     &kp DEL
-&kp CAPS          &kp A         &kp S         &kp D                      &kp F      &kp G               &kp LEFT_ARROW   &kp H              &kp J      &kp K                                             &kp L          &kp SEMI                  &kp RET
-&kp LSHFT         &kp Z         &kp X         &kp C                      &kp V      &kp B               &kp RIGHT_ARROW  &kp N              &kp M      &kp COMMA                                         &kp DOT        &kp FSLH                  &kp RSHIFT
-&kp C_PLAY_PAUSE  &kp LEFT_GUI  &kp LEFT_ALT  &rgblayer1 1(138,82,47) 1  &kp SPACE  &kp LEFT_CONTROL    &kp ENTER        &kp RIGHT_CONTROL  &kp SPACE  &rgbpress RIGHT_ALT RGB_COLOR_HSB_VAL(136,80,46)  &kp RIGHT_GUI  &rgblayer1 2(0,100,50) 2
+&kp ESC           &kp N1        &kp N2        &kp N3                                     &kp N4     &kp N5              &kp UP_ARROW     &kp N6             &kp N7     &kp N8                                            &kp N9         &kp N0                                   &kp BACKSPACE
+&kp TAB           &kp Q         &kp W         &kp E                                      &kp R      &kp T               &kp DOWN_ARROW   &kp Y              &kp U      &kp I                                             &kp O          &kp P                                    &kp DEL
+&kp CAPS          &kp A         &kp S         &kp D                                      &kp F      &kp G               &kp LEFT_ARROW   &kp H              &kp J      &kp K                                             &kp L          &kp SEMI                                 &kp RET
+&kp LSHFT         &kp Z         &kp X         &kp C                                      &kp V      &kp B               &kp RIGHT_ARROW  &kp N              &kp M      &kp COMMA                                         &kp DOT        &kp FSLH                                 &kp RSHIFT
+&kp C_PLAY_PAUSE  &kp LEFT_GUI  &kp LEFT_ALT  &rgblayer1 RGB_COLOR_HSB_VAL(145,91,48) 1  &kp SPACE  &kp LEFT_CONTROL    &kp ENTER        &kp RIGHT_CONTROL  &kp SPACE  &rgbpress RIGHT_ALT RGB_COLOR_HSB_VAL(136,80,46)  &kp RIGHT_GUI  &rgblayer1 RGB_COLOR_HSB_VAL(0,97,48) 2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
