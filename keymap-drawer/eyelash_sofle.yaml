@@ -56,7 +56,7 @@ layers:
   - PLAY PAUSE
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - '&rgblayer1 1 RGB_COLOR_HSB_VAL(21,86,46)'
+  - '&rgblayer1 1(138,82,47) 1'
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -64,7 +64,7 @@ layers:
   - $$mdi:keyboard-space$$
   - '&rgbpress RIGHT_ALT RGB_COLOR_HSB_VAL(136,80,46)'
   - RIGHT GUI
-  - '&rgblayer1 2 RGB_COLOR_HSB_VAL(0,90,48)'
+  - '&rgblayer1 2(0,100,50) 2'
   Layer 1:
   - {t: '`', s: '~'}
   - F1
