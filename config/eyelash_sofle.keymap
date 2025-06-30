@@ -77,13 +77,17 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
+                <&macro_press>,
+                <&kp LEFT_GUI &kp SPACE>,
+                <&macro_wait_time 50>,
+                <&macro_release>,
+                <&kp LEFT_GUI &kp SPACE>,
+                <&macro_wait_time 150>,
                 <&macro_tap>,
-                <&kp LG(LGUI) &kp SPACE>,
-                <&macro_wait_time 200>,
-                <&kp C &kp U &kp R &kp S &kp O &kp R>,
+                <&kp W &kp M &kp P &kp S>,
                 <&macro_wait_time 100>,
-                <&kp ENTER>,
-                <&macro_press>;
+                <&macro_tap>,
+                <&kp ENTER>;
 
             label = "OPENAPP";
         };
