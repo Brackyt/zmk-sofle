@@ -216,7 +216,7 @@ layers:
   - END
   - PgUp
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: /, s: '?'}
+  - {t: '-', s: _}
   - KP 7
   - KP 8
   - KP 9
@@ -229,7 +229,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
+  - C
   - KP 4
   - KP 5
   - KP 6
@@ -242,11 +242,11 @@ layers:
   - AltGr+$$mdi:arrow-right-bold$$
   - $$mdi:keyboard-tab-reverse$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ',', s: <}
+  - {t: ., s: '>'}
   - KP 1
   - KP 2
   - KP 3
-  - .
+  - N
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
