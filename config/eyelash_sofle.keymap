@@ -90,6 +90,7 @@
                 <&kp ENTER>;
 
             label = "OPENAPP";
+            tap-ms = <10>;
         };
 
         ALT_BLUE: ALT_BLUE {
